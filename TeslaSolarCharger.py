@@ -42,4 +42,4 @@ while True:
     if (solarpower < threshold and charging == 0):
         print("not charging")
 
-    time.sleep(10)  # wait 10 seconds before next power check
+    time.sleep(20)  # wait 20 seconds before next power check
