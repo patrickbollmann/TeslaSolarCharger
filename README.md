@@ -1,5 +1,5 @@
 # TeslaSolarCharger
-Small python script to optimize your tesla electric vehivle charging process in combination with power from a solarsystem using an old PIKO/Kostal solar inverter.
+Small python script to optimize your tesla electric vehicle charging process in combination with power from a solarsystem using an old PIKO/Kostal solar inverter.
 
 Start this script after when plugging in your Tesla.
 Charging your EV will automatically start if enough self produced solar power is available and stops if power is to low. This will result in an optimal usage of self produced power and saves cost during Power bought off the grid is much more expensive.
