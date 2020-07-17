@@ -29,8 +29,8 @@ while True:
 
     if (solarpower >= threshold and charging == 0):  # if enough power available start charging
         car = myTesla.connect(teslaemail, teslapassword)
-        car.wake_up
-        time.sleep(15)
+        car.wake_up()
+        time.sleep(10) #waiting for car to wake up
         car.charge_start()
         charging = 1
         print("started charging")
@@ -39,7 +39,6 @@ while True:
 
     if (solarpower < threshold and charging == 1):  # if not enough power available stop charging
         car = myTesla.connect(teslaemail, teslapassword)
-        car.wake_up
         car.charge_stop()
         charging = 0
         print("stopped charging")
