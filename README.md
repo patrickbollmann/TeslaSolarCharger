@@ -7,6 +7,6 @@ Charging your EV will automatically start if enough self produced solar power is
 The threshold which defines "enough power to charge" is set to 3000 watts by default. Whis represents charging your Telsa at 230V single phased off a normal wall plug. If you are using a Wallbox with higher charge power you might want to change this setting.
 Available power will be updated every 20 seconds, which stops charging even if a big cloud passes your area
 
-Depending on which solar inverter you are using, you might have to change some parsing of the webinterface.
+Depending on which solar inverter you are using, you might have to change some parsing of the webinterface. In this case we are using an PIKO 10.1 Inverter at firmware 5.44
 
 Using myTesla for communication with the Car: https://github.com/zmsp/python-my-tesla
